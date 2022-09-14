@@ -7,7 +7,8 @@ Websites Project
 Creating a Check List
 - [] <-- This is a example of a checkbox
 - [x] <-- This is a checked box
-- <del> [x] This is a crossed out item </del>
+- <del> [x] This is a crossed out item that looks odd </del>
+- [x] <del> This is a crossed out item that looks good </del>
 
 ---
 
