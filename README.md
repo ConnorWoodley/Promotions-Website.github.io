@@ -21,5 +21,19 @@ Creating a Check List
 - [ ] Make another album at the bottom of the page that automatcially scrolls through photos
 - [ ] Have a live instagram feed at the right side of the page that displays moms most recent posts
 - [ ] Above that instagram feed create a way of contacting mom by inserting the customers email, phone #, first and last name with text saying some random inspirational quote to attract giddy happy photo people
+- [ ] Create a tame background that is either a photo or just colors perferably red and white
+- [ ] Create a header for the website that says "Red Socks"
+- [ ] Create text at the bottom of the website saying moms famous quotes or just saying "Red Socks" again
 
 ---
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE"
+   target="_blank">
+<img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+     alt="IMAGE ALT TEXT HERE"
+     width="240"
+     height="180"
+     border="10" />
+</a>
+
+$$(\color{red}color changing test)$$
