@@ -24,8 +24,14 @@ Creating a Check List
 - [ ] Create a tame background that is either a photo or just colors perferably red and white
 - [ ] Create a header for the website that says "Red Socks"
 - [ ] Create text at the bottom of the website saying moms famous quotes or just saying "Red Socks" again
+- [ ] Have a youtube link that displays moms photography and her book
+- [ ] Have a link to moms book website
+- [ ] Have people be able to scroll down with everything on the side going down with them
+- [ ] 
 
 ---
+
+### Information Needed
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE"
    target="_blank">
@@ -36,4 +42,4 @@ Creating a Check List
      border="10" />
 </a>
 
-$$(\color{red}color changing test)$$
+$$(\color{red}color_changing_test)$$
