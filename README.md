@@ -27,19 +27,19 @@ Creating a Check List
 - [ ] Have a youtube link that displays moms photography and her book
 - [ ] Have a link to moms book website
 - [ ] Have people be able to scroll down with everything on the side going down with them
-- [ ] 
+- [ ] Do the work that Mercer assigns
 
 ---
 
 ### Information Needed
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE"
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=v=zTtejen_qqs"
    target="_blank">
-<img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+<img src="http://img.youtube.com/vi/v=zTtejen_qqs/0.jpg"
      alt="IMAGE ALT TEXT HERE"
      width="240"
      height="180"
      border="10" />
 </a>
 
-$$(\color{red}color_changing_test)$$
+$$(\color{red}color  changing  test)$$
