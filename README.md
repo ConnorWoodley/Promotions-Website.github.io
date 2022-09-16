@@ -36,7 +36,7 @@ Creating a Check List
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=v=zTtejen_qqs"
    target="_blank">
 <img src="http://img.youtube.com/vi/v=zTtejen_qqs/0.jpg"
-     alt="IMAGE ALT TEXT HERE"
+     alt="RSGWAA video"
      width="240"
      height="180"
      border="10" />
