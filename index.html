@@ -21,82 +21,85 @@
 
         <Style>
             body {
-                background-image: url('https://www.xmple.com/wallpaper/gradient-red-white-linear-5120x2880-c2-f08080-ffffff-a-135-f-14.svg');
+                background-image: url('https://wallpaperaccess.com/full/622523.jpg');
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
             }
-                #container {
-                width: 1000px;
-                overflow: hidden;
-                margin: 50px auto;
-                background: white;
-            }
-            * {margin: 0; padding: 0;}
-            /*header*/
-            header {
-            width: 800px;
-            margin: 40px auto;
-            }
- 
-            header h1 {
-            text-align: center;
-            font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
- 
-            }
- 
-            header p {
-            font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
-            text-align: justify;
-            }
- 
-            /*photobanner*/
- 
-            .photobanner {
-            height: 233px;
-            width: 3550px;
-            margin-bottom: 80px;
+            /* The grid: Four equal columns that floats next to each other */
+            .column {
+             float: left;
+             width: 10%;
+             padding: 10px;
+             border: 2px dotted black
             }
 
-            /*keyframe animations*/
-            .first {
-            -webkit-animation: bannermove 30s linear infinite;
-            -moz-animation: bannermove 30s linear infinite;
-            -ms-animation: bannermove 30s linear infinite;
-            -o-animation: bannermove 30s linear infinite;
-            animation: bannermove 30s linear infinite;
+            /* Style the images inside the grid */
+            .column img {
+             opacity: 0.8;
+             cursor: pointer;
             }
- 
 
+            .column img:hover {
+             opacity: 1;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+             content: "";
+             display: table;
+             clear: both;
+            }
+
+            /* The expanding image container (positioning is needed to position the close button and the text) */
+            .container {
+             position: relative;
+              display: none;
+            }
+
+            /* Expanding image text */
+            #imgtext {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+            }
+
+            /* Closable button inside the image */
+            .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: black;
+            font-size: 35px;
+            cursor: pointer;
+            }
+            
         </Style>
 
-
     </head>
-
-    <body>
-
-
-<div id="container">
-    <header>
-     <h1>Animated Photo Banner</h1>
-     <p>Lorem ipsum dolor...</p>
-    </header>
     
-    <!-- Each image is 350px by 233px -->
-    <div class="photobanner">
-    	<img class="first" src="Images/26531654._UY630_SR1200,630_ (1).jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="Images/26531654._UY630_SR1200,630_ (1).jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="Images/26531654._UY630_SR1200,630_ (1).jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-4.jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-5.jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-6.jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-1.jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-2.jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-3.jpg" alt="" style="width:30px;height:auto"/>
-    	<img src="image-4.jpg" alt="" style="width:30px;height:auto"/>
+    <div class="row">
+        <div class="column">
+            <img src="Images/red-socks.jpg" alt="Nature" style="width:10%;height:auto" onclick="myFunction(this);">
+            <img src="Images/red-socks.jpg" alt="Nature" style="width:10%;height:auto" onclick="myFunction(this);">
+            <img src="Images/red-socks.jpg" alt="Nature" style="width:10%;height:auto" onclick="myFunction(this);">
+            <img src="Images/red-socks.jpg" alt="Nature" style="width:10%;height:auto" onclick="myFunction(this);">
+        </div>
     </div>
-</div>
-
+  
+    <!-- The expanding image container -->
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display=''" class="closebtn">&times;</span>
+  
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:20%">
+  
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
 
         </header>
         <nav></nav>
@@ -105,6 +108,18 @@
         <article></article>
         <section></section>
         <footer></footer>
+
+
+        <script>
+            function myFunction(imgs) {
+              var expandImg = document.getElementById("expandedImg");
+              var imgText = document.getElementById("imgtext");
+              expandImg.src = imgs.src;
+              imgText.innerHTML = imgs.alt;
+              expandImg.parentElement.style.display = "block";
+            }
+        </script>
+
 
     </body>
 
